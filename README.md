@@ -51,7 +51,7 @@ A aplicação estará disponível em `http://localhost:5173` (ou na porta indica
 ## 📝 Validação e Fluxo de Etapas
 
 O formulário foi projetado para ser intuitivo e robusto, seguindo um fluxo claro para o usuário.
-
+![alt text](image.png)
 ### Fluxo de Etapas
 
 A navegação entre as diferentes seções do formulário é controlada por um sistema de passos.
@@ -64,9 +64,13 @@ A navegação entre as diferentes seções do formulário é controlada por um s
 
 - A validação dos campos é executada a cada tentativa de avanço.
 - Se um campo obrigatório não for preenchido ou se os dados estiverem em um formato inválido, uma mensagem de erro (`ErrorMessage`) será exibida abaixo do campo correspondente.
+![alt text](image-1.png)
 - O usuário só pode avançar para a próxima etapa após corrigir todos os erros da etapa atual.
 
 ### Resumo e Submissão
 
 - Após preencher todas as etapas, uma tela de resumo (`Summary`) é apresentada, mostrando todos os dados inseridos (`SummaryItem`) para revisão final.
+![alt text](image-2.png)
 - Ao confirmar os dados, o formulário é submetido e uma mensagem de sucesso (`SuccessMessage`) é exibida, finalizando o fluxo.
+![alt text](image-3.png)
+
